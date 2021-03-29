@@ -33,7 +33,7 @@
 
 <hr>
 
-## *CONTENT: <a name="content">&#128206;</a>*
+## *<a name="content">&#128206;</a> CONTENT:*
 
 - [x] src - Pasta contendo os arquivos do Site (Arquivos HTML, CSS e Imagens.)
 - [x] mgt - Pasta contendo fotos e pdf do protótipo MOBILE do site.
