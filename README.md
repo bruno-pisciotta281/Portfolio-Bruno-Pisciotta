@@ -48,3 +48,5 @@
 <hr>
 
 ## *<a name="video">&#127910;</a> VÍDEO EXPLICATIVO DO PROJETO:*
+
+[ACESSO AO VÍDEO EXPLICATIVo](https://youtu.be/K3saF8p_l34)
