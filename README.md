@@ -25,7 +25,7 @@
 
 <hr>
 
-## *<a name="tecs">&#128736;</a> TECNOLOGIAS & TECNOLOGIAS UTILIZADAS:* 
+## *<a name="tecs">&#128736;</a> FERRAMENTAS & TECNOLOGIAS UTILIZADAS:* 
 
 - [x] HTML 5
 - [x] CSS 3
