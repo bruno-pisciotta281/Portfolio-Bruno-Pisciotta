@@ -9,7 +9,7 @@
 
 <hr>
 
- ## *CRIADOR:*
+ ## *CRIADOR: <a name="criador">&#128400;</a>*
 
 
 | [<img src="" width="75px;"/>](https://) |
@@ -20,12 +20,12 @@
 
 <hr>
 
-## *SOBRE:*
+## *SOBRE: <a name="sobre">&#128269;</a>*
 <p>Este repositório é reservado para a postagem de conteúdo do Site de Portfólio pessoal referente a materia de Design Digital regida pelo professor FABRICIO GALENDE.</p>
 
 <hr>
 
-## *TECNOLOGIAS UTILIZADAS:* 
+## *TECNOLOGIAS & TECNOLOGIAS UTILIZADAS: <a name="tecs">&#128736;</a>* 
 
 - [x] HTML 5
 - [x] CSS 3
@@ -33,7 +33,7 @@
 
 <hr>
 
-## *CONTENT:*
+## *CONTENT: <a name="content">&#128206;</a>*
 
 - [x] src - Pasta contendo os arquivos do Site (Arquivos HTML, CSS e Imagens.)
 - [x] mgt - Pasta contendo fotos e pdf do protótipo MOBILE do site.
@@ -41,10 +41,10 @@
 
 <hr>
 
-## *WIREFRAME COMPLETO:*
+## *WIREFRAME MOBILE: <a name="wireframe">&#128241;</a>*
 
-[WIREFRAME MOBILE](https://www.figma.com/file/bFVSkxoLF3T9o8hLAywPRD/WIREFRAME-PORTF%C3%93LIO-CELULAR?node-id=0%3A1)
+[ACESSO AO WIREFRAME](https://www.figma.com/file/bFVSkxoLF3T9o8hLAywPRD/WIREFRAME-PORTF%C3%93LIO-CELULAR?node-id=0%3A1)
 
 <hr>
 
-## *VÍDEO EXPLICATIVO DO PROJETO:*
+## *VÍDEO EXPLICATIVO DO PROJETO: <a name="video">&#127910;</a>*
