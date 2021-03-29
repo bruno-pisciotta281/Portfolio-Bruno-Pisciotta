@@ -1,0 +1,450 @@
+/*ESTRUTURA DE ESTILIZAÇÃO CSS DO MEU SITE DE PORTFÓLIO*/
+/*INÍCIO DAS ESTILIZAÇÕES*/
+
+/*ESTILIZAÇÕES GERAIS*/
+
+* {
+	padding: 0;
+	text-decoration: none !important;
+	list-style: none;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif !important;
+    background:snow;
+}
+
+
+/*ESTILIZAÇÃO NAVBAR*/ 
+
+/*Estilizações Principais*/
+.inicio{
+	background-color: rgb(52, 58, 64);
+	color: #ffffff;
+	border: none;
+	font-size: 17px;
+	
+}
+
+.inicio:hover{
+	background-color: #002244;
+	transition: .5s;
+	width: 65px !important;
+	height: 30px !important;
+}
+
+nav {
+	background: rgb(52, 58, 64);
+	height: 80px;
+	width: 100%;
+    
+}
+label.logo {
+	color: white;
+	font-size: 35px;
+	line-height: 80px;
+	padding: 0 100px;
+	font-weight: bold;
+}
+nav ul {
+	float: right;
+	margin-right: 20px;
+}
+nav ul li {
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+}
+nav ul li a {
+	color: white;
+	font-size: 17px;
+	padding: 7px 13px;
+	border-radius: 3px;
+	text-transform: uppercase;
+}
+a.active, a:hover {
+	background: #002244;
+	color: white !important;
+	transition: .5s;
+	
+}
+
+/*Estilização da Navbar na Função mobile*/
+.checkbtn {
+	font-size: 30px;
+	color: white;
+	float: right;
+	line-height: 80px;
+	margin-right: 40px;
+	cursor: pointer;
+	display: none;
+}
+#check {
+	display: none;
+}
+@media (max-width: 952px){
+	label.logo{
+		font-size: 30px;
+		padding-left: 50px;
+	}
+	nav ul li a{
+		font-size: 16px;
+	}
+}
+@media (max-width: 858px){
+	.checkbtn {
+		display: block;
+	}
+	ul{
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		background: rgb(52, 58, 64);
+		top: 80px;
+		left: -100%;
+		text-align: center;
+		transition: all .5s;
+	}
+	nav ul li{
+		display: block;
+		margin: 50px 0;
+		line-height: 30px;
+	}
+	nav ul li a {
+		font-size: 20px;
+	}
+	a:hover, a.active {
+		background: none;
+		color: #002244;
+	}
+	#check:checked ~ ul {
+		left: 0;
+	}
+}
+
+/*FIM DA ESTILIZAÇÃO NAVBAR*/
+
+
+/* ESTILIZAÇÃO div 01 */
+
+.corpo{
+    width: 100%;
+    height: 90vh;
+    justify-content: center;
+    align-content: center;
+    display: grid;
+}
+
+.corpo h1
+{
+    margin-top: 15%;
+    font-size: 50px;
+    text-align: center;
+     
+}
+
+.corpo p{
+    text-align: center;
+    font-style: italic;
+
+}
+
+.corpo button{
+    height: 50px;
+    width: 100px;
+    display: block;
+	margin: auto;
+    margin-top: 2% !important;
+    background: rgb(52, 58, 64);
+    font-size: large;
+    font-variant: unset;
+    text-transform: uppercase;
+    color: snow;
+    border-radius: 15%;
+}
+
+.corpo button a{
+	color: white;
+}
+
+.corpo button:hover{
+    background: #002244;
+	transition: .5s;
+    cursor: pointer;
+}
+
+
+/* ESTILIZAÇÃO div 02 */
+
+.corpo2{
+	background: rgb(52, 58, 64);
+    width: 100%;
+    height: 120vh;
+}
+
+.corpo2 h1
+{
+	color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.corpo2 p{
+	color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+.minha_foto{
+	margin-left: 40% !important;
+	border-radius: 50% !important;
+}
+
+/*Estilização dos Cards (Bootstrap)*/
+.card{
+	float: right;
+	margin: 5%;
+	
+}
+
+.card img{
+	float: left;
+}
+
+.card-body{
+	color: #000000;
+}
+
+.card-text{
+	color: black !important;
+	text-align: justify !important; 
+}
+
+
+/* ESTILIZAÇÃO div 03 */
+
+.corpo3{
+	margin-top: 3%;
+	margin: 1% !important;
+	background: rgb(255, 255, 255);
+    width: 100%;
+    height: 120vh;
+}
+
+.corpo3 h1
+{
+    font-size: 50px;
+    text-align: center;
+}
+
+.corpo3 p{
+    text-align: center;
+    font-style: italic;
+}
+
+
+/* ESTILIZAÇÃO div 03-5 */
+
+.corpo3-5{
+	margin-top: 3%;
+	margin-right: 3% !important;
+	background: rgb(255, 255, 255);
+    width: 100%;
+    height: 100vh;
+}
+
+.corpo3-5 h1
+{
+    font-size: 50px;
+    text-align: center;
+}
+
+.corpo3-5 p{
+    text-align: center;
+    font-style: italic;
+	margin: 3%;
+}
+
+.card2 img{
+	margin: 1%;
+	height: 100px;
+	width: 100px;
+	align-items: center;
+	float: left;
+}
+
+
+/* ESTILIZAÇÃO div 04 (contato) */
+
+.corpo4{
+	background: rgb(52, 58, 64);
+    width: 100%;
+    height: 100vh;
+}
+
+.corpo4 h1{
+	color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.corpo4 p{
+	color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+.corpo4 button{
+	display: block;
+	margin: auto;
+	background-color: rgb(52, 58, 64);
+	border-color: white;
+	border-radius: 15%;
+}
+
+.corpo4 button:hover{
+	color: white;
+	background-color: #002244;
+	border: white 1px solid;
+}
+
+#um{
+ float: left;
+}
+
+#dois{
+	float: right;
+}
+
+form{
+	font-size: 16px;
+	background: rgb(52, 58, 64);
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 0 10px 10px 10px;
+}
+
+input, textarea{
+	width: 470px;
+	padding: 10px;
+}
+
+.enviar input{
+	background: rgb(52, 58, 64);
+	height: 40px;
+	width: 150px;
+	font-weight: bold;
+	border-radius: 15%;
+	border:  1px solid;
+	color: rgb(255, 255, 255);
+	cursor: pointer;
+}
+
+.enviar input:hover{
+	background: #002244;
+	transition: .5s;
+}
+
+textarea{
+	width: 470px;
+	height: 120px;
+	line-height: 20px;
+}
+
+
+/* ESTILIZAÇÃO RODAPÉ */
+
+.footer {
+	width: 100%;
+	height: 100%;
+	background-color: rgb(52, 58, 64);
+	color: white;
+ 	font-family: 'Montserrat', sans-serif;
+	margin-top: 2%;
+}
+
+.footer h1 {
+	font-size: 150%;
+	text-align: center;
+}
+
+/*FIM DAS ESTILIZAÇÕES PRINCIPAIS DO SITE */
+
+
+
+/*Estilizações Adicionais*/
+
+/* Estilo/funcionalidades da mensagem "início" - snackbar */
+
+#snackbar {
+  visibility: hidden; 
+  min-width: 250px; 
+  margin-left: 110px; 
+  background-color: rgb(52, 58, 64); 
+  color: #fff; 
+  text-align: center; 
+  border-radius: 2px; 
+  padding: 16px; 
+  position: fixed; 
+  z-index: 1; 
+  left: 50%; 
+  bottom: 30px; 
+}
+
+#snackbar.show {
+  visibility: visible; 
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+
+@-webkit-keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}
+
+
+/* Estilização do Botão "voltar ao topo" */
+
+.btn1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 30px;
+    right: 3px;
+    width: 35px;
+    height: 35px;
+    background-color: rgb(52, 58, 64);
+    text-decoration: none;
+	border-radius: 50%;
+}
+.btn1::after {
+    content: "↑";
+    font-size: 32px;
+    font-weight: bold;
+    color: aliceblue;
+    transition: margin-top 250ms;
+}
+.btn1:hover::after {
+    margin-top:-8px;
+}
+
+/*FIM DAS ESTILIZAÇÕES*/
