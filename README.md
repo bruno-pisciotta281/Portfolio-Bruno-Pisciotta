@@ -12,7 +12,7 @@
 ## <a name="criador">&#128400;</a> *CRIADOR:*
 
 
-| [<img src="" width="75px;"/>](https://github.com/bruno-pisciotta281/Index.html/blob/master/img/me.jpg) |
+| [<img src="https://github.com/bruno-pisciotta281/Index.html/blob/master/img/me.jpg" width="75px;"/>](https://github.com/guilhermerodz) |
 | :------------------------------------------------------------------------------------------------------------------------: |
 
 
