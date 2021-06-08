@@ -41,7 +41,7 @@
 
 <hr>
 
-## *<a name="wireframe">&#128241;</a> WIREFRAME MOBILE:*
+## *<a name="wireframe">&#128241;</a> WIREFRAME do INDEX MOBILE:*
 
 [ACESSO AO WIREFRAME](https://www.figma.com/file/bFVSkxoLF3T9o8hLAywPRD/WIREFRAME-PORTF%C3%93LIO-CELULAR?node-id=0%3A1)
 
@@ -49,4 +49,4 @@
 
 ## *<a name="video">&#127910;</a> VÍDEO EXPLICATIVO DO PROJETO:*
 
-[ACESSO AO VÍDEO EXPLICATIVO](https://youtu.be/K3saF8p_l34)
+[ACESSO AO VÍDEO EXPLICATIVO](https://youtu.be/TlJVuZz8NtM)
